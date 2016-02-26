@@ -11,5 +11,5 @@ sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 if [ ! -e ~/.vimrc ];
-	then ln -s ~/.yacvim/.vimrc ~/.vimrc
+	then ln -s ~/.vimplugin/.vimrc ~/.vimrc
 fi
