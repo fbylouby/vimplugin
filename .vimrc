@@ -1,5 +1,5 @@
-let g:python3_host_prog = '/usr/local/bin/python3.5'
-"let g:python2_host_prog='/usr/bin/python2.7'
+"let g:python3_host_prog = '/usr/local/bin/python3.5'
+let g:python2_host_prog='/usr/bin/python2.7'
 
 call plug#begin('~/.vim/plugged')
 
